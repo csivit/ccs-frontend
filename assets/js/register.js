@@ -97,6 +97,14 @@ $(document).ready(function () {
                     }
                 }
             },
+            confpassword: {
+                validators: {
+                    identical: {
+                        field: 'password',
+                        message: 'The password and its confirm are not the same'
+                        }
+                    }
+                }
             }
         })
         .on('success.form.bv', function(e) {

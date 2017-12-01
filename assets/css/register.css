@@ -1,0 +1,118 @@
+#success_message{ display: none;}
+
+.form-group {
+    color: white;
+}
+.well {
+	background-color: transparent; 
+	border: 0;
+}
+.btn {
+    border-style: solid !important;
+    border: 1px;
+    border-color: white;
+    background: #121642;
+    color: white;
+}
+.btn:hover {
+    background: white;
+    color: black;
+}
+#loginbox {
+    margin-top: 30px;
+}
+
+#loginbox > div:first-child {        
+    padding-bottom: 10px;    
+}
+
+.iconmelon {
+    display: block;
+    margin: auto;
+}
+
+#form > div {
+    margin-bottom: 25px;
+}
+
+#form > div:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel {    
+    background-color: transparent;
+    padding: 0;
+}
+
+.panel-body {
+    margin-top: 10%;
+}
+
+.logo {
+	width: 100%;
+	height: auto;
+    background: #121642;
+}
+.form-container {
+	margin-top: 5%;
+}
+.img-container {
+	margin: 10% 0;
+}
+.title {
+	margin: 10% 0;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .well {
+    	padding: 0;
+    }
+}
+body {
+    background-color: #121642;
+}
+
+#loginbox {
+    margin-top: 30px;
+}
+
+#loginbox > div:first-child {        
+    padding-bottom: 10px;    
+}
+
+.iconmelon {
+    display: block;
+    margin: auto;
+}
+
+#form > div {
+    margin-bottom: 25px;
+}
+
+#form > div:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;                        
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+#success_message{ display: none;}
+fieldset legend {
+    color: white;
+
+}
+.form-group label {
+    text-align: left;
+}
+
+

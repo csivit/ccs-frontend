@@ -1,0 +1,74 @@
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;                        
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+.csi-logo {
+	width: auto;
+	height: 100%;
+}
+.navbar-brand {
+	padding: 5% 5%;
+}
+.navbar-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+    padding: 10px;
+}
+html, body {
+  height:100%;
+}
+
+body {
+ -webkit-animation: bg-animation 30s ease infinite;
+-moz-animation: bg-animation 30s ease infinite;
+animation: bg-animation 30s ease infinite;
+ background: linear-gradient(269deg, #246655, #1b66da, #1ba9da, #37d8d6);
+ background-size: 800% 800%;
+}
+
+@-webkit-keyframes bg-animation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes bg-animation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes bg-animation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+
+.questions-container {
+    background: white;
+
+}
+.centerFlex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.question-no {
+    border-bottom-style: solid;
+    border-width: 1.5px;
+}
+.row {
+    margin: 10px 0;
+}

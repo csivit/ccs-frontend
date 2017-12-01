@@ -1,0 +1,171 @@
+.csi-logo {
+	width: auto;
+	height: 100%;
+}
+.navbar-brand {
+	padding: 5% 5%;
+}
+.navbar-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+    padding: 10px;
+}
+body {
+    background-color: #fff;
+}
+.row-text {
+	margin-top:15%;
+	font-size: 25px;
+  margin-bottom: 5%;
+}
+.row-options {
+	margin-top: 2%;
+}
+.choice-title {
+  font-size: 30px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border: 2px solid black;
+}
+.box {
+  background: #ffffff;
+  border-radius: 6px;
+  transition-property: background, border-radius;
+  transition-duration: .4s, 1s;
+  transition-timing-function: linear;
+}
+
+/* Scale up the box */
+.box:hover {
+
+    background-color: #121642;
+	color: white;
+  	border-radius: 10%;
+}
+
+.rotate {
+  background: white;
+	transition-duration: .4s, 1s;
+  transition-timing-function: linear;
+  font-family: Trajan;
+}
+
+.rotate:hover
+{
+  color: white;
+  background: -webkit-linear-gradient(left,#121642 , #283aef); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,#121642, #283aef); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right,#121642, #283aef); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right,#121642, #283aef); /* Standard syntax */
+}
+
+.typewriter {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  transition: box-shadow .3s;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  float: left;
+  background: white;
+
+}
+.typewriter:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+ /* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;                        
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+.d-d {
+  display: inline;
+
+}
+.d-e {
+  display: inline;
+
+}
+.d-s {
+
+  display: inline;
+
+}
+.d-i {
+
+  display: inline;
+
+}
+.d-g {
+
+  display: inline;
+
+}
+.d-n {
+
+  display: inline;
+
+}
+
+.rotate:hover .d-d {
+  display: inline;
+  color: #ed0459;
+}
+.rotate:hover .d-e {
+  display: inline;
+  color: #ff1cfb;
+}
+.rotate:hover .d-s {
+  display: inline;
+  color: #4d21ff;
+}
+.rotate:hover .d-i {
+  display: inline;
+  color: #20fffb;
+}
+.rotate:hover .d-g {
+  display: inline;
+  color: #20ff66;
+}
+.rotate:hover .d-n {
+  display: inline;
+  color: #fffb20;
+}
+

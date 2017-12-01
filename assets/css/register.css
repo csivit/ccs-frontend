@@ -107,7 +107,9 @@ body {
     z-index: -2;
 }
 #success_message{ display: none;}
-
+.form-horizontal .control-label {
+    text-align: left;
+}
 fieldset legend {
     color: white;
 

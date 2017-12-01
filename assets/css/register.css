@@ -107,6 +107,7 @@ body {
     z-index: -2;
 }
 #success_message{ display: none;}
+
 fieldset legend {
     color: white;
 

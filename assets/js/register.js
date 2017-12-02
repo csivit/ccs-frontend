@@ -60,8 +60,9 @@ $(document).ready(function () {
                     notEmpty: {
                         message: 'Please supply your email address'
                     },
-                    emailAddress: {
-                        message: 'Please supply a valid email address'
+                    regexp: {
+                        regexp: /^[a-z]+.[a-z]+2017@vitstudent\.ac\.in$/,
+                        message: 'Please enter your VIT email id'
                     }
                 }
             },
@@ -113,7 +114,7 @@ $(document).ready(function () {
 
             // Prevent form submission
             e.preventDefault();
-;
+
         });
 
 });

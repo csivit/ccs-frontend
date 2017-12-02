@@ -1,7 +1,10 @@
 body {
     background-color: #121642;
 }
-
+#info-text {
+  font-size: 5px;
+  color: white !important;
+}
 .btn {
     border-style: solid !important;
     border: 1px;
@@ -16,7 +19,9 @@ body {
 #loginbox {
     margin-top: 30px;
 }
-
+.form-group #info-text {
+  padding: 0;
+}
 #loginbox > div:first-child {        
     padding-bottom: 10px;    
 }
